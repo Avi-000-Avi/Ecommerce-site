@@ -1,0 +1,13 @@
+Commercejs
+// Usually a commerce app will need a full backend api with full api with all the routes 
+adding the products, deleting the products,
+you need authentication and a lot all of this is stored in this instance
+
+In the description it's showing Html text instead of normal text
+    <Typography variant ="body1" color="textSecondary">
+    {product.description}
+    <Typography/>
+
+    Changed to
+    <Typography dangerouslySetInnerHTML= {{__html: product.description}} variant ="body1" color="textSecondary"/>
+                        
