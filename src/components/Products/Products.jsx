@@ -9,7 +9,7 @@ const products = [
     { id: 2, name: 'Macbook', description: 'Apple Macbook',price: 'Rs 1,50,000', image: 'https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
 ];
 
-const Products = ()  => {
+const Products = ({products})  => {
     const classes = useStyles();
 
     return (
